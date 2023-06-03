@@ -9,7 +9,7 @@ var usersRouter = require('./routes/users');
 let userRouter = require('./routes/user.route');
 let mongoose = require('./db/db');
 var app = express();
-
+//hii
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
